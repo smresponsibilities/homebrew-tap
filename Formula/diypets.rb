@@ -1,20 +1,20 @@
 class Diypets < Formula
   desc "Cross-platform desktop mascot engine in Rust with multi-pet herds, 2D/SVG studio, and MCP server"
   homepage "https://shivammahajan.com/diypets/"
-  version "0.3.1"
+  version "0.4.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/smresponsibilities/diypets/releases/download/v0.3.1/diypets-aarch64-apple-darwin.tar.gz"
-      sha256 "cd5c61c44ee09d04a933d683fc10aa545b583d25cb043b631e6307d81dbf7e76"
+      url "https://github.com/smresponsibilities/diypets/releases/download/v0.4.1/diypets-aarch64-apple-darwin.tar.gz"
+      sha256 "8d0401598e9bd76505af4dca745d798d490363732ceabc9fc6039ac9481c0a2a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/smresponsibilities/diypets/releases/download/v0.3.1/diypets-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e60bb40de6fad1c93c4534b21d8146dccc41b67702c7b1a3a312283dc4b20d72"
+      url "https://github.com/smresponsibilities/diypets/releases/download/v0.4.1/diypets-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1c3c405e7ef0670d946837d590317e5c29d67b59162f57ed12b25268af270d67"
     end
   end
 
